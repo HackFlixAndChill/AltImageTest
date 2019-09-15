@@ -19,8 +19,9 @@ h1, h2 {
 h1 {
     padding: 100px;
     background-color: #002d35;
-    color: #ffffff;
+    color: #023f47;
     font-size: 50px;
+    box-shadow: 0 0 12px 3px #002d35;
 }
 
 h2 {
@@ -33,30 +34,143 @@ section {
     padding: 50px;
 }
 
-section#_1 {
+section.light {
     background-color: #51fff667;
     color: #000000;
-    box-shadow: 0 0 12px #000000 inset;
 }
 
-section#_2 {
+section.dark {
     background-color: #002d35;
     color: #ffffff;
+    box-shadow: 0 0 12px 3px #002d35;
 }
 
-p {
+section p {
     font-size: 25px;
+}
+
+section.light p {
     color: #dddddd;
+}
+
+section.dark p {
+    color: #333333;
 }
 
 div {
     margin: auto;
     display: table;
+    max-width: 50%;
 }
 
-img {
+img.big {
     margin: auto;
     margin-bottom: 25px;
     display: block;
     max-width: 50%;
+}
+
+footer {
+    margin: 0px;
+    padding: 50px;
+}
+
+footer.light {
+    background-color: #51fff667;
+    color: #000000;
+}
+
+footer.dark {
+    background-color: #002d35;
+    color: #ffffff;
+}
+
+footer div {
+    max-width: 100%;
+}
+
+footer a {
+    margin: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer.light a {
+    color: #000000;
+}
+
+footer.dark a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+section.shadow {
+    box-shadow: 0 0 12px 3px #000000;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+td {
+    width: 33.333%;
+    padding: 15px;
+    margin: 5px;
+}
+
+td img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+td.yellow {
+    background-color: #ffff00;
+    color: #dddddd;
+}
+
+td.blue {
+    background-color: #0000ff;
+    color: #333333;
+}
+
+td.turquoise {
+    background-color: rgb(0, 255, 229);
+    color: #ffff00;
+}
+
+td.grey {
+    background-color: #777777;
+    color: #999999;
+}
+
+td.white {
+    background-color: #ffffff;
+    color: #eecedb;
+}
+
+td.red {
+    background-color: #ff0000;
+    color: #ff9900;
+}
+
+td.green {
+    background-color: #00ff00;
+    color: rgb(0, 201, 201);
+}
+
+td.purple {
+    background-color: #9900ff;
+    color: #bb0000;
+}
+
+td.orange {
+    background-color: #ff9900;
+    color: #99cc00;
 }
